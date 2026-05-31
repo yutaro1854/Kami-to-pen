@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kami to Pen | Detalle de producto</title>
+    <meta
+      name="description"
+      content="Detalle de producto Kami to Pen: papelería japonesa seleccionada para Chile, con precio en CLP y consulta por mensaje."
+    >
+    <link rel="icon" href="assets/kami-to-pen-logo.png">
+    <link rel="stylesheet" href="styles.css?v=commerce-depth13">
+  </head>
+  <body data-page="product">
+    <div class="store-announcement" data-i18n="announcementText">
+      New Japanese stationery for Chile - consulta y reserva por mensaje.
+    </div>
+
+    <header class="site-header" aria-label="Navegacion principal">
+      <button class="menu-toggle" type="button" data-menu-toggle aria-controls="category-drawer" aria-expanded="false" aria-label="Categorías">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <strong data-i18n="menuLabel">Categorías</strong>
+      </button>
+
+      <a class="brand-lockup" href="index.html#top" aria-label="Kami to Pen">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="assets/kami-to-pen-logo-cutout.png?v=logo-cutout" alt="">
+        </span>
+        <span>
+          <span class="brand-name">Kami to Pen</span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">Papelería japonesa seleccionada</span>
+        </span>
+      </a>
+
+      <nav class="header-nav" aria-label="Secciones">
+        <button type="button" data-products-menu data-i18n="navCatalog">Productos</button>
+        <button type="button" data-categories-menu data-i18n="navCategories">Categorías</button>
+        <a href="index.html#brands" data-i18n="navBrands">Marcas</a>
+        <a href="index.html#contact" data-i18n="navContact">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="language-switch" aria-label="Idioma">
+          <button class="language-button is-active" type="button" data-lang-button="es" aria-pressed="true">ES</button>
+          <button class="language-button" type="button" data-lang-button="ja" aria-pressed="false">日本語</button>
+        </div>
+        <a class="cart-summary-button" href="checkout.html" data-cart-summary aria-label="Carrito">
+          <span class="cart-summary-text" data-i18n="cartLabel">Carrito</span>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <div class="product-detail product-page-detail" id="product-detail" aria-live="polite"></div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kami to Pen</p>
+      <p data-i18n="footerNote">Papelería japonesa seleccionada para Chile.</p>
+    </footer>
+
+    <div class="inquiry-modal" id="inquiry-modal" aria-hidden="true">
+      <div class="inquiry-backdrop" data-inquiry-close></div>
+      <section class="inquiry-dialog" role="dialog" aria-modal="true" aria-labelledby="inquiry-title">
+        <button class="inquiry-close" type="button" data-inquiry-close aria-label="Close">×</button>
+        <p class="eyebrow" data-i18n="inquiryEyebrow">Consulta</p>
+        <h2 id="inquiry-title" data-i18n="inquiryTitle">Mensaje listo para enviar</h2>
+        <p class="inquiry-help" data-i18n="inquiryHelp">
+          Copia este mensaje y envíalo cuando el canal esté listo.
+        </p>
+        <textarea class="inquiry-message" id="inquiry-message" readonly></textarea>
+        <div class="inquiry-actions">
+          <button class="button button-primary" type="button" id="copy-inquiry">
+            <span data-i18n="copyInquiry">Copiar mensaje</span>
+          </button>
+          <a class="button button-secondary social-cta inquiry-link" id="whatsapp-inquiry" href="index.html#contact" data-channel="WhatsApp">
+            <span data-i18n="ctaWhatsapp">WhatsApp準備中</span>
+          </a>
+          <a class="button button-secondary social-cta inquiry-link" id="instagram-inquiry" href="index.html#contact" data-channel="Instagram">
+            <span data-i18n="ctaInstagram">Instagram準備中</span>
+          </a>
+        </div>
+        <p class="inquiry-config-note" data-i18n="inquiryConfigNote">
+          Cuando el número de WhatsApp o Instagram estén listos, agrega los datos en contactConfig dentro de script.js.
+        </p>
+      </section>
+    </div>
+
+    <div class="cart-drawer" id="cart-drawer" aria-hidden="true">
+      <div class="cart-drawer-backdrop" data-cart-drawer-close></div>
+      <aside class="cart-drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cart-drawer-title">
+        <button class="cart-drawer-close" type="button" data-cart-drawer-close aria-label="Close">×</button>
+        <p class="eyebrow" data-i18n="cartDrawerEyebrow">Carrito</p>
+        <h2 id="cart-drawer-title" data-i18n="cartDrawerTitle">Tu selección</h2>
+        <p class="cart-drawer-text" data-i18n="cartDrawerText">
+          Revisa cantidades y deja el pedido listo antes de pasar a confirmar.
+        </p>
+        <div class="cart-drawer-items" id="cart-drawer-items" aria-live="polite"></div>
+        <div class="cart-drawer-summary">
+          <span data-i18n="cartDrawerSubtotal">Subtotal</span>
+          <strong id="cart-drawer-subtotal">0 CLP</strong>
+        </div>
+        <div class="cart-drawer-actions">
+          <a class="button cart-drawer-checkout" href="checkout.html" data-cart-drawer-checkout data-i18n="cartDrawerCheckout">Ir al checkout</a>
+          <button class="button cart-drawer-copy" type="button" data-cart-drawer-copy data-i18n="cartDrawerCopy">
+            Copiar pedido
+          </button>
+          <button class="button cart-drawer-continue" type="button" data-cart-drawer-close data-i18n="cartDrawerContinue">
+            Seguir mirando
+          </button>
+        </div>
+      </aside>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js?v=commerce-depth13"></script>
+  </body>
+</html>

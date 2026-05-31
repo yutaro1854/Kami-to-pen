@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kami to Pen | Checkout</title>
+    <meta
+      name="description"
+      content="Checkout de Kami to Pen: revisa tu carrito, total estimado en CLP y prepara el mensaje de compra."
+    >
+    <link rel="icon" href="assets/kami-to-pen-logo.png">
+    <link rel="stylesheet" href="styles.css?v=commerce-depth13">
+  </head>
+  <body data-page="checkout">
+    <div class="store-announcement" data-i18n="announcementText">
+      New Japanese stationery for Chile - consulta y reserva por mensaje.
+    </div>
+
+    <header class="site-header" aria-label="Navegacion principal">
+      <button class="menu-toggle" type="button" data-menu-toggle aria-controls="category-drawer" aria-expanded="false" aria-label="Categorías">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <strong data-i18n="menuLabel">Categorías</strong>
+      </button>
+
+      <a class="brand-lockup" href="index.html#top" aria-label="Kami to Pen">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="assets/kami-to-pen-logo-cutout.png?v=logo-cutout" alt="">
+        </span>
+        <span>
+          <span class="brand-name">Kami to Pen</span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">Papelería japonesa seleccionada</span>
+        </span>
+      </a>
+
+      <nav class="header-nav checkout-secure-message" aria-label="Checkout">
+        <span data-i18n="checkoutSecureTitle">Protegemos tu información</span>
+      </nav>
+
+      <div class="header-actions">
+        <div class="language-switch" aria-label="Idioma">
+          <button class="language-button is-active" type="button" data-lang-button="es" aria-pressed="true">ES</button>
+          <button class="language-button" type="button" data-lang-button="ja" aria-pressed="false">日本語</button>
+        </div>
+        <a class="cart-summary-button" href="checkout.html" data-cart-summary aria-label="Carrito">
+          <span class="cart-summary-text" data-i18n="cartLabel">Carrito</span>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="top" class="checkout-page">
+      <section class="checkout-hero checkout-review-strip" aria-labelledby="checkout-title">
+        <p class="eyebrow" data-i18n="checkoutEyebrow">Checkout</p>
+        <h1 id="checkout-title" data-i18n="checkoutTitle">Revisa tu pedido</h1>
+        <p data-i18n="checkoutText">
+          Esta pantalla no cobra en línea. Ordena tu carrito y prepara un mensaje para confirmar stock, color, entrega y forma de pago.
+        </p>
+      </section>
+
+      <section class="checkout-layout" aria-label="Checkout">
+        <div class="checkout-main">
+          <section class="checkout-step-card">
+            <div class="checkout-step-heading">
+              <span class="checkout-step-number">1</span>
+              <div>
+                <h2 data-i18n="checkoutAddressTitle">Datos de entrega</h2>
+                <p data-i18n="checkoutAddressLine">Chile - comuna y punto de entrega por confirmar</p>
+              </div>
+              <button class="checkout-change" type="button" data-i18n="checkoutChange">Cambiar</button>
+            </div>
+            <div class="checkout-link-stack">
+              <a href="index.html#contact" data-i18n="checkoutDeliveryInstruction">Confirmar entrega por mensaje</a>
+              <a href="index.html#contact" data-i18n="checkoutNearbyPickup">Consultar punto cercano de entrega</a>
+            </div>
+          </section>
+
+          <section class="checkout-step-card">
+            <div class="checkout-step-heading">
+              <span class="checkout-step-number">2</span>
+              <div>
+                <h2 data-i18n="checkoutPaymentMethod">Forma de pago</h2>
+                <p data-i18n="checkoutPaymentLine">Transferencia o pago acordado por mensaje</p>
+              </div>
+              <button class="checkout-change" type="button" data-i18n="checkoutChange">Cambiar</button>
+            </div>
+            <p class="checkout-soft-note" data-i18n="checkoutPaymentBenefits">
+              El pago se confirma después de revisar stock, color y entrega.
+            </p>
+          </section>
+
+          <section class="checkout-step-card checkout-delivery-card">
+            <div class="checkout-step-heading">
+              <span class="checkout-step-number">3</span>
+              <div>
+                <h2 data-i18n="checkoutDeliveryTitle">Entrega y productos</h2>
+                <p data-i18n="checkoutDeliveryDeadline">Fecha y punto se confirman antes de cerrar el pedido.</p>
+              </div>
+              <span id="checkout-count" class="checkout-count-label"></span>
+            </div>
+
+            <div class="checkout-delivery-options" aria-label="Opciones de entrega">
+              <label class="checkout-delivery-option is-selected">
+                <input type="radio" checked>
+                <span>
+                  <strong data-i18n="checkoutFastDelivery">Entrega coordinada</strong>
+                  <small data-i18n="checkoutDeliveryValue">Por coordinar</small>
+                </span>
+                <em data-i18n="checkoutFree">Sin costo definido</em>
+              </label>
+              <label class="checkout-delivery-option">
+                <input type="radio">
+                <span>
+                  <strong data-i18n="checkoutDateDelivery">Reservar para otra fecha</strong>
+                  <small data-i18n="checkoutDeliveryInstruction">Confirmar entrega por mensaje</small>
+                </span>
+                <em data-i18n="checkoutFree">Sin costo definido</em>
+              </label>
+            </div>
+
+            <div class="checkout-items" id="checkout-items"></div>
+          </section>
+        </div>
+
+        <aside class="checkout-summary" aria-labelledby="checkout-summary-title">
+          <h2 id="checkout-summary-title" data-i18n="checkoutSummaryTitle">Resumen</h2>
+          <button class="button button-primary checkout-copy-button checkout-confirm-button" type="button" id="checkout-copy">
+            <span data-i18n="checkoutCopy">Copiar pedido</span>
+          </button>
+          <p class="checkout-legal-note" data-i18n="checkoutOrderLegal">
+            Al confirmar, se genera un mensaje de compra. La reserva queda cerrada solo después de confirmar stock, entrega y pago por mensaje.
+          </p>
+          <dl class="checkout-total-list">
+            <div>
+              <dt data-i18n="checkoutSubtotal">Subtotal estimado</dt>
+              <dd id="checkout-subtotal">0 CLP</dd>
+            </div>
+            <div>
+              <dt data-i18n="checkoutDelivery">Entrega</dt>
+              <dd data-i18n="checkoutDeliveryValue">Por coordinar</dd>
+            </div>
+            <div class="checkout-grand-total">
+              <dt data-i18n="checkoutTotal">Total estimado</dt>
+              <dd id="checkout-total">0 CLP</dd>
+            </div>
+          </dl>
+
+          <div class="checkout-payment-note">
+            <h3 data-i18n="checkoutPaymentTitle">Pago</h3>
+            <p data-i18n="checkoutPaymentText">
+              El pago se acuerda después de revisar el pedido. Por ahora Kami to Pen no procesa pagos dentro del sitio.
+            </p>
+          </div>
+
+          <div class="checkout-message-box">
+            <label for="checkout-message" data-i18n="checkoutMessageTitle">Mensaje de compra</label>
+            <textarea id="checkout-message" readonly></textarea>
+          </div>
+
+          <div class="checkout-actions">
+            <a class="button button-secondary social-cta checkout-contact-link" id="checkout-whatsapp" href="index.html#contact" data-channel="WhatsApp" data-checkout-contact>
+              <span data-i18n="ctaWhatsapp">WhatsApp準備中</span>
+            </a>
+            <a class="button button-secondary social-cta checkout-contact-link" id="checkout-instagram" href="index.html#contact" data-channel="Instagram" data-checkout-contact>
+              <span data-i18n="ctaInstagram">Instagram準備中</span>
+            </a>
+          </div>
+          <a class="checkout-back-link" href="index.html#catalog" data-i18n="checkoutContinue">Seguir comprando</a>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kami to Pen</p>
+      <p data-i18n="footerNote">Papelería japonesa seleccionada para Chile.</p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js?v=commerce-depth13"></script>
+  </body>
+</html>

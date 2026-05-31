@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Kami to Pen image pending</title>
+  <desc id="desc">Neutral placeholder for products whose exact image is not confirmed yet.</desc>
+  <rect width="900" height="700" rx="38" fill="#fbf7ef"/>
+  <rect x="74" y="74" width="752" height="552" rx="30" fill="#fffdf8" stroke="#e8dbca" stroke-width="3"/>
+  <path d="M218 420c86-44 164-76 264-76 72 0 130 18 200 54" fill="none" stroke="#b44a45" stroke-width="10" stroke-linecap="round"/>
+  <path d="M290 254h320" stroke="#2d2a27" stroke-width="14" stroke-linecap="round"/>
+  <path d="M320 296h260" stroke="#2d2a27" stroke-width="14" stroke-linecap="round" opacity=".72"/>
+  <circle cx="220" cy="254" r="34" fill="#f3c98b"/>
+  <circle cx="680" cy="254" r="34" fill="#f3c98b"/>
+  <text x="450" y="492" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" fill="#2d2a27" letter-spacing="5">KAMI TO PEN</text>
+  <text x="450" y="548" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#8e6b4f" letter-spacing="2">PHOTO TO CONFIRM</text>
+</svg>

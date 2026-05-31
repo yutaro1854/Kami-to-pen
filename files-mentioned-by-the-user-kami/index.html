@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kami to Pen | Papelería japonesa en Chile</title>
+    <meta
+      name="description"
+      content="Tienda bilingüe de Kami to Pen: papelería japonesa seleccionada para Chile, con lápices, bolígrafos, refills y accesorios."
+    >
+    <link rel="icon" href="assets/kami-to-pen-logo.png">
+    <link rel="stylesheet" href="styles.css?v=commerce-depth13">
+  </head>
+  <body>
+    <div class="store-announcement" data-i18n="announcementText">
+      New Japanese stationery for Chile - consulta y reserva por mensaje.
+    </div>
+
+    <header class="site-header" aria-label="Navegacion principal">
+      <button class="menu-toggle" type="button" data-menu-toggle aria-controls="category-drawer" aria-expanded="false" aria-label="Categorías">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <strong data-i18n="menuLabel">Categorías</strong>
+      </button>
+
+      <a class="brand-lockup" href="#top" aria-label="Kami to Pen">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="assets/kami-to-pen-logo-cutout.png?v=logo-cutout" alt="">
+        </span>
+        <span>
+          <span class="brand-name">Kami to Pen</span>
+          <span class="brand-subtitle" data-i18n="brandSubtitle">Papelería japonesa seleccionada</span>
+        </span>
+      </a>
+
+      <nav class="header-nav" aria-label="Secciones">
+        <a href="#about" data-i18n="navAbout">Nosotros</a>
+        <button type="button" data-products-menu data-i18n="navCatalog">Productos</button>
+        <button type="button" data-categories-menu data-i18n="navCategories">Categorías</button>
+        <a href="#brands" data-i18n="navBrands">Marcas</a>
+        <a href="#contact" data-i18n="navContact">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="language-switch" aria-label="Idioma">
+          <button class="language-button is-active" type="button" data-lang-button="es" aria-pressed="true">ES</button>
+          <button class="language-button" type="button" data-lang-button="ja" aria-pressed="false">日本語</button>
+        </div>
+        <a class="cart-summary-button" href="checkout.html" data-cart-summary aria-label="Carrito">
+          <span class="cart-summary-text" data-i18n="cartLabel">Carrito</span>
+          <span class="cart-count" data-cart-count hidden>0</span>
+        </a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Desde Japón para escribir mejor en Chile</p>
+          <h1 id="hero-title" data-i18n="heroTitle">Kami to Pen</h1>
+          <p class="hero-lede" data-i18n="heroLede">
+            Bolígrafos, lápices mecánicos y recambios japoneses elegidos por calidad, precisión y disponibilidad local.
+          </p>
+          <div class="hero-actions" aria-label="Coleccion destacada">
+            <a class="button button-primary hero-collection-cta" href="#catalog" data-i18n="heroCollectionCta">
+              Ver colección
+            </a>
+          </div>
+          <dl class="hero-stats" aria-label="Resumen del catalogo">
+            <div>
+              <dt data-i18n="statSkusLabel">Lineas seleccionadas</dt>
+              <dd id="product-count-stat">57</dd>
+            </div>
+            <div>
+              <dt data-i18n="statCategoriesLabel">Categorías</dt>
+              <dd>5</dd>
+            </div>
+            <div>
+              <dt data-i18n="statCurrencyLabel">Precios</dt>
+              <dd>CLP</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure class="hero-media" data-hero-slideshow>
+          <div class="hero-slide-grid" data-hero-slide-grid>
+            <a class="hero-product-tile is-featured" href="product.html#product=kurutoga-dive" aria-label="Ver detalle KURUTOGA DIVE">
+              <img
+                src="https://baseec-img-mng.akamaized.net/images/item/origin/021379cc1be855e3056c57e17d7d3b00.jpg?im=Resize%2Cwidth%3D1280%2Ctype%3Dnormal&imformat=generic&q=90"
+                alt="KURUTOGA DIVE"
+              >
+            </a>
+          </div>
+          <div class="hero-slide-dots" data-hero-dots aria-label="Productos destacados"></div>
+        </figure>
+      </section>
+
+      <section class="store-dashboard" id="store-dashboard" aria-labelledby="store-dashboard-title">
+        <div class="store-dashboard-head">
+          <div>
+            <p class="eyebrow" data-i18n="dashboardEyebrow">Selección rápida</p>
+            <h2 id="store-dashboard-title" data-i18n="dashboardTitle">Empieza por lo más visto.</h2>
+          </div>
+          <p data-i18n="dashboardText">
+            Atajos para ver premium, uso diario, recambios y básicos sin perderte en toda la lista.
+          </p>
+        </div>
+        <div class="store-dashboard-grid" id="store-dashboard-grid" aria-label="Selección rápida de productos"></div>
+      </section>
+
+      <section class="intro-band" aria-label="Resumen de compra">
+        <div>
+          <p data-i18n="introLineOne">Productos seleccionados con precios de venta en CLP.</p>
+          <p data-i18n="introLineTwo">Para colores, punta, disponibilidad exacta o packs, consulta por mensaje.</p>
+        </div>
+      </section>
+
+      <section class="store-discovery" id="shop" aria-labelledby="store-discovery-title">
+        <div class="store-discovery-head">
+          <div>
+            <p class="eyebrow" data-i18n="storeRailEyebrow">Comprar por categoría</p>
+            <h2 id="store-discovery-title" data-i18n="storeRailTitle">Elige tu próxima pieza.</h2>
+          </div>
+          <p data-i18n="storeRailText">
+            Explora por familia y compara productos con tarjetas claras, como en una tienda online.
+          </p>
+        </div>
+        <div class="store-category-rail" id="store-category-rail" aria-label="Categorías principales"></div>
+      </section>
+
+      <section class="brand-section" id="brands" aria-labelledby="brand-rail-title">
+        <div class="brand-section-head">
+          <div>
+            <p class="eyebrow" data-i18n="brandRailEyebrow">Comprar por marca</p>
+            <h2 id="brand-rail-title" data-i18n="brandRailTitle">Compara por marca.</h2>
+          </div>
+          <p data-i18n="brandRailText">
+            Si ya sabes qué fabricante te gusta, entra directo a su selección y compara modelos.
+          </p>
+        </div>
+        <div class="brand-rail" id="brand-rail" aria-label="Marcas"></div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="about-layout">
+          <div class="about-copy">
+            <p class="eyebrow" data-i18n="aboutEyebrow">Nosotros</p>
+            <h2 id="about-title" data-i18n="aboutTitle">Papelería japonesa seleccionada para Chile</h2>
+            <div class="about-text">
+              <p data-i18n="aboutParagraphOne">
+                KAMI TO PEN es una pequeña tienda selecta que trae papelería japonesa a Chile.
+              </p>
+              <p data-i18n="aboutParagraphTwo">
+                No elegimos productos solo porque sirven para escribir, sino porque hacen que escribir, estudiar, trabajar o crear se sienta mejor.
+              </p>
+              <p data-i18n="aboutParagraphThree">
+                Seleccionamos bolígrafos, cuadernos, gomas y artículos de papelería japoneses por su calidad, diseño y experiencia de uso.
+              </p>
+            </div>
+          </div>
+          <div class="about-belief" aria-label="Kami to Pen philosophy">
+            <img src="assets/kami-to-pen-logo-cutout.png?v=logo-cutout" alt="">
+            <p data-i18n="aboutBelief">
+              Creemos que con buen papel y un buen lápiz, las ideas se sienten mejor.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-block" id="catalog" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="catalogEyebrow">Productos</p>
+          <h2 id="catalog-title" data-i18n="catalogTitle">Papelería japonesa para elegir</h2>
+          <p data-i18n="catalogText">
+            Una primera seleccion de productos con alta demanda: ediciones premium, modelos de uso diario y recambios compatibles.
+          </p>
+        </div>
+
+        <div class="catalog-tools" id="catalog-tools" aria-label="Buscar y ordenar productos">
+          <label class="catalog-search">
+            <span data-i18n="searchLabel">Buscar</span>
+            <input id="catalog-search" type="search" autocomplete="off" data-i18n-placeholder="searchPlaceholder">
+          </label>
+          <label class="catalog-sort">
+            <span data-i18n="sortLabel">Ordenar</span>
+            <select id="catalog-sort">
+              <option value="featured" data-i18n="sortFeatured">Recomendados</option>
+              <option value="price-low" data-i18n="sortPriceLow">Precio: menor a mayor</option>
+              <option value="price-high" data-i18n="sortPriceHigh">Precio: mayor a menor</option>
+              <option value="newest" data-i18n="sortNewest">Más nuevos</option>
+            </select>
+          </label>
+          <div class="tag-filter" id="tag-filter" aria-label="Filtrar por etiqueta"></div>
+          <div class="brand-filter" id="brand-filter" aria-label="Filtrar por marca"></div>
+          <button class="button catalog-reset" type="button" id="catalog-reset" data-i18n="resetFilters">Limpiar filtros</button>
+        </div>
+        <div class="catalog-result-row">
+          <p class="catalog-result-count" id="catalog-result-count" aria-live="polite"></p>
+        </div>
+        <div class="filter-bar" id="filter-bar" aria-label="Filtrar por categoria"></div>
+        <div class="ink-type-filter" id="ink-type-filter" aria-label="Filtrar bolígrafos por tipo" hidden></div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="category-section" id="categories" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="categoriesEyebrow">Categorías</p>
+          <h2 id="categories-title" data-i18n="categoriesTitle">Cinco grupos para armar tu set</h2>
+          <p data-i18n="categoriesText">
+            La seleccion cubre escritura diaria, piezas premium, mantenimiento y accesorios pequenos.
+          </p>
+        </div>
+        <div class="category-grid" id="category-grid"></div>
+      </section>
+
+      <section class="faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="faq-heading">
+          <p class="eyebrow" data-i18n="faqEyebrow">Antes de comprar</p>
+          <h2 id="faq-title" data-i18n="faqTitle">Compra con información clara.</h2>
+          <p data-i18n="faqText">
+            Kami to Pen todavía confirma cada pedido por mensaje para evitar errores de color, punta o entrega.
+          </p>
+        </div>
+        <div class="faq-grid" aria-label="Preguntas frecuentes">
+          <article class="faq-card">
+            <h3 data-i18n="faqStockQuestion">¿El stock está confirmado?</h3>
+            <p data-i18n="faqStockAnswer">La selección está preparada para consulta, pero color, punta y entrega se confirman antes de cerrar el pedido.</p>
+          </article>
+          <article class="faq-card">
+            <h3 data-i18n="faqDeliveryQuestion">¿Cómo se coordina la entrega?</h3>
+            <p data-i18n="faqDeliveryAnswer">El punto de entrega dentro de Chile se acuerda por mensaje según comuna y disponibilidad.</p>
+          </article>
+          <article class="faq-card">
+            <h3 data-i18n="faqPaymentQuestion">¿Se paga dentro del sitio?</h3>
+            <p data-i18n="faqPaymentAnswer">Por ahora no hay cobro online. El carrito prepara el pedido y luego se confirma por mensaje.</p>
+          </article>
+          <article class="faq-card">
+            <h3 data-i18n="faqCompatibilityQuestion">¿Los refills son compatibles?</h3>
+            <p data-i18n="faqCompatibilityAnswer">Cuando un bolígrafo o lápiz tiene recambio recomendado, se muestra en la página del producto y se vuelve a revisar antes de comprar.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <p class="eyebrow" data-i18n="contactEyebrow">Contacto</p>
+          <h2 id="contact-title" data-i18n="contactTitle">Consulta modelo, color y entrega</h2>
+          <p data-i18n="contactText">
+            Los enlaces definitivos se agregarán cuando el número de WhatsApp y la cuenta de Instagram estén listos.
+          </p>
+        </div>
+        <div class="contact-panel" aria-label="Canales de contacto">
+          <a class="contact-link social-cta inquiry-trigger" href="#contact" data-channel="WhatsApp">
+            <span class="contact-label">WhatsApp</span>
+            <span data-i18n="contactWhatsapp">Preparando enlace</span>
+          </a>
+          <a class="contact-link social-cta inquiry-trigger" href="#contact" data-channel="Instagram">
+            <span class="contact-label">Instagram</span>
+            <span data-i18n="contactInstagram">Preparando perfil</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Kami to Pen</p>
+      <p data-i18n="footerNote">Papelería japonesa seleccionada para Chile.</p>
+    </footer>
+
+    <div class="inquiry-modal" id="inquiry-modal" aria-hidden="true">
+      <div class="inquiry-backdrop" data-inquiry-close></div>
+      <section class="inquiry-dialog" role="dialog" aria-modal="true" aria-labelledby="inquiry-title">
+        <button class="inquiry-close" type="button" data-inquiry-close aria-label="Close">×</button>
+        <p class="eyebrow" data-i18n="inquiryEyebrow">Consulta</p>
+        <h2 id="inquiry-title" data-i18n="inquiryTitle">Mensaje listo para enviar</h2>
+        <p class="inquiry-help" data-i18n="inquiryHelp">
+          Copia este mensaje y envíalo cuando el canal esté listo.
+        </p>
+        <textarea class="inquiry-message" id="inquiry-message" readonly></textarea>
+        <div class="inquiry-actions">
+          <button class="button button-primary" type="button" id="copy-inquiry">
+            <span data-i18n="copyInquiry">Copiar mensaje</span>
+          </button>
+          <a class="button button-secondary social-cta inquiry-link" id="whatsapp-inquiry" href="#contact" data-channel="WhatsApp">
+            <span data-i18n="ctaWhatsapp">WhatsApp準備中</span>
+          </a>
+          <a class="button button-secondary social-cta inquiry-link" id="instagram-inquiry" href="#contact" data-channel="Instagram">
+            <span data-i18n="ctaInstagram">Instagram準備中</span>
+          </a>
+        </div>
+        <p class="inquiry-config-note" data-i18n="inquiryConfigNote">
+          Cuando el número de WhatsApp o Instagram estén listos, agrega los datos en contactConfig dentro de script.js.
+        </p>
+      </section>
+    </div>
+
+    <div class="cart-drawer" id="cart-drawer" aria-hidden="true">
+      <div class="cart-drawer-backdrop" data-cart-drawer-close></div>
+      <aside class="cart-drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cart-drawer-title">
+        <button class="cart-drawer-close" type="button" data-cart-drawer-close aria-label="Close">×</button>
+        <p class="eyebrow" data-i18n="cartDrawerEyebrow">Carrito</p>
+        <h2 id="cart-drawer-title" data-i18n="cartDrawerTitle">Tu selección</h2>
+        <p class="cart-drawer-text" data-i18n="cartDrawerText">
+          Revisa cantidades y deja el pedido listo antes de pasar a confirmar.
+        </p>
+        <div class="cart-drawer-items" id="cart-drawer-items" aria-live="polite"></div>
+        <div class="cart-drawer-summary">
+          <span data-i18n="cartDrawerSubtotal">Subtotal</span>
+          <strong id="cart-drawer-subtotal">0 CLP</strong>
+        </div>
+        <div class="cart-drawer-actions">
+          <a class="button cart-drawer-checkout" href="checkout.html" data-cart-drawer-checkout data-i18n="cartDrawerCheckout">Ir al checkout</a>
+          <button class="button cart-drawer-copy" type="button" data-cart-drawer-copy data-i18n="cartDrawerCopy">
+            Copiar pedido
+          </button>
+          <button class="button cart-drawer-continue" type="button" data-cart-drawer-close data-i18n="cartDrawerContinue">
+            Seguir mirando
+          </button>
+        </div>
+      </aside>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js?v=commerce-depth13"></script>
+  </body>
+</html>
