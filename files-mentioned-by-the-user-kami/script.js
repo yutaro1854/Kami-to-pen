@@ -6456,168 +6456,11 @@ const categories = [
   },
 ];
 
-const inventoryPhotos = [
-  {
-    productId: "jetstream-lite",
-    image: "https://www.mpuni.co.jp/products/images/products/313882000.jpg",
-    titleEs: "JETSTREAM Lite touch ink",
-    titleJa: "ジェットストリーム Lite touch ink",
-    descriptionEs: "Imagen de referencia del modelo JETSTREAM.",
-    descriptionJa: "JETSTREAMモデルの外部参考画像。",
-    priceClp: "3.500 CLP",
-  },
-  {
-    productId: "kurutoga-dive",
-    image: "https://baseec-img-mng.akamaized.net/images/item/origin/021379cc1be855e3056c57e17d7d3b00.jpg?im=Resize%2Cwidth%3D1280%2Ctype%3Dnormal&imformat=generic&q=90",
-    titleEs: "KURUTOGA DIVE",
-    titleJa: "クルトガ ダイブ",
-    descriptionEs: "Imagen externa del lápiz mecánico premium.",
-    descriptionJa: "プレミアムシャープペンの外部参考画像。",
-    priceClp: "100.000 CLP",
-  },
-  {
-    productId: "kurutoga-metal",
-    image: "https://www.mpuni.co.jp/news/images/news/ed954fa14215beabe02a0d83af8c1e3b97353e94.jpg",
-    titleEs: "KURUTOGA Metal",
-    titleJa: "クルトガ メタル",
-    descriptionEs: "Referencia externa de los modelos metálicos.",
-    descriptionJa: "メタルモデルの外部参考画像。",
-    priceClp: "40.000-45.000 CLP",
-  },
-  {
-    productId: "zento-signature",
-    image: "https://shopping.jreast.co.jp/html/upload/save_image/shop/17456/product/4778690/image_l.jpg",
-    titleEs: "ZENTO Signature",
-    titleJa: "ZENTO シグニチャー",
-    descriptionEs: "Referencia externa de la linea ZENTO premium.",
-    descriptionJa: "ZENTO上位ラインの外部参考画像。",
-    priceClp: "70.000-80.000 CLP",
-  },
-  {
-    productId: "zento-flow",
-    image: "https://www.mpuni.co.jp/products/images/products/thm_uniballzento_zf.png",
-    titleEs: "ZENTO Flow",
-    titleJa: "ZENTO Flow",
-    descriptionEs: "Referencia externa del rollerball ZENTO.",
-    descriptionJa: "ZENTOローラーボールの外部参考画像。",
-    priceClp: "13.000 CLP",
-  },
-  {
-    productId: "jetstream-4and1",
-    image: "https://www.mpuni.co.jp/products/images/products/313882000.jpg",
-    titleEs: "JETSTREAM 4&1",
-    titleJa: "ジェットストリーム 4&1",
-    descriptionEs: "Referencia externa del multifunción JETSTREAM.",
-    descriptionJa: "JETSTREAM多機能モデルの外部参考画像。",
-    priceClp: "16.000 CLP",
-  },
-  {
-    productId: "uniball-one-p-standard",
-    image: "https://www.mpuni.co.jp/products/images/products/7bd507720d7e9e9e14f24792291f164d1957b642.jpg",
-    titleEs: "uni-ball one P standard",
-    titleJa: "ユニボール ワン P 通常",
-    descriptionEs: "Referencia externa del modelo compacto one P.",
-    descriptionJa: "コンパクトなone Pの外部参考画像。",
-    priceClp: "6.900 CLP",
-  },
-  {
-    productId: "kuru-toga-ks",
-    image: "https://www.mpuni.co.jp/products/images/products/3eb0c5b8e64e7c7f42cee11e63c979eb51257b43.png",
-    titleEs: "KURUTOGA KS",
-    titleJa: "クルトガ KS",
-    descriptionEs: "Referencia externa del KURUTOGA para estudio.",
-    descriptionJa: "学習向けクルトガの外部参考画像。",
-    priceClp: "8.900 CLP",
-  },
-  {
-    productId: "orenznero",
-    image: "https://www.pentel.co.jp/images/products/ORENZNERO_mainvisual_pc-1.jpg",
-    titleEs: "Pentel ORENZNERO",
-    titleJa: "ぺんてる オレンズネロ",
-    descriptionEs: "Referencia externa del lápiz mecánico premium Pentel.",
-    descriptionJa: "ぺんてる上位シャープの外部参考画像。",
-    priceClp: "40.000 CLP",
-  },
-  {
-    productId: "uniball-one",
-    image: "https://www.mpuni.co.jp/products/feature_images/main/ballpoint_pens/thm_uniballone.png",
-    titleEs: "uni-ball one",
-    titleJa: "ユニボール ワン",
-    descriptionEs: "Referencia externa para la familia uni-ball one.",
-    descriptionJa: "uni-ball oneシリーズの外部参考画像。",
-    priceClp: "2.000-6.900 CLP",
-  },
-  {
-    productId: "juice-up",
-    image: "https://www.pilot.co.jp/press_release/d02899159a77371e1ce39cbdb1cbbe68cc20a235.jpg",
-    titleEs: "Juice up",
-    titleJa: "ジュースアップ",
-    descriptionEs: "Referencia externa de la pluma gel Juice up.",
-    descriptionJa: "Juice upゲルペンの外部参考画像。",
-    priceClp: "3.500 CLP",
-  },
-  {
-    productId: "sarasa-clip",
-    image: "https://www.zebra.co.jp/global/images/sarasa.png",
-    titleEs: "SARASA CLIP",
-    titleJa: "サラサクリップ",
-    descriptionEs: "Referencia externa del gel clásico de Zebra.",
-    descriptionJa: "Zebra定番ゲルペンの外部参考画像。",
-    priceClp: "2.000 CLP",
-  },
-  {
-    productId: "pentel-art-multi-8",
-    image: "https://www.pentel.co.jp/images/products/artmulti8_lineup_2.png",
-    titleEs: "Pentel Art Multi 8",
-    titleJa: "ぺんてる アートマルチ8",
-    descriptionEs: "Referencia externa del portaminas artístico multicolor.",
-    descriptionJa: "多色アート文具の外部参考画像。",
-    priceClp: "37.000 CLP",
-  },
-  {
-    productId: "jetstream-refill",
-    image: "https://www.mpuni.co.jp/products/images/products/SXR-L-7.jpg",
-    titleEs: "Recambios JETSTREAM",
-    titleJa: "ジェットストリーム替え芯",
-    descriptionEs: "Referencia externa de recambios JETSTREAM.",
-    descriptionJa: "JETSTREAM替え芯の外部参考画像。",
-    priceClp: "2.000 CLP",
-  },
-  {
-    productId: "pentel-ain-leads",
-    image: "https://www.pentel.co.jp/images/products/lead_pentel_ain_mainvisual_pc_1.png",
-    titleEs: "Minas Pentel Ain",
-    titleJa: "Pentel Ain シャー芯",
-    descriptionEs: "Referencia externa de minas Pentel Ain.",
-    descriptionJa: "Pentel Ainシャー芯の外部参考画像。",
-    priceClp: "2.500 CLP",
-  },
-  {
-    productId: "campus-pencil-sharp-basic",
-    image: "https://www.kokuyo.com/system/files/SET44292.jpg",
-    titleEs: "KOKUYO enpitsu sharp",
-    titleJa: "KOKUYO 鉛筆シャープ",
-    descriptionEs: "Referencia externa de lápices mecánicos de uso diario.",
-    descriptionJa: "日常使いシャープペンの外部参考画像。",
-    priceClp: "3.000 CLP",
-  },
-  {
-    productId: "olfa-perforation-cutter",
-    image: "https://www.olfa.co.jp/wordpress/wp-content/uploads/1501648948PRC-3.jpg",
-    titleEs: "OLFA perforation cutter",
-    titleJa: "OLFA ミシン目カッター",
-    descriptionEs: "Referencia externa del cortador de perforación OLFA.",
-    descriptionJa: "OLFAミシン目カッターの外部参考画像。",
-    priceClp: "19.900 CLP",
-  },
-];
-
 const copy = {
   es: {
     brandSubtitle: "Papelería japonesa seleccionada",
     announcementText: "New Japanese stationery for Chile - consulta y reserva por mensaje.",
     navAbout: "Nosotros",
-    navGallery: "Productos",
     navCatalog: "Productos",
     navCategories: "Categorías",
     navBrands: "Marcas",
@@ -6670,11 +6513,6 @@ const copy = {
     aboutParagraphThree:
       "Seleccionamos bolígrafos, cuadernos, gomas y artículos de papelería japoneses por su calidad, diseño y experiencia de uso.",
     aboutBelief: "Creemos que con buen papel y un buen lápiz, las ideas se sienten mejor.",
-    galleryEyebrow: "Productos",
-    galleryTitle: "Imágenes de productos",
-    galleryText:
-      "Las fotos se cargan desde páginas externas de referencia. Colores y combinaciones se confirman por mensaje.",
-    sourceNote: "Fuentes de imagen:",
     catalogEyebrow: "Productos",
     catalogTitle: "Papelería japonesa para elegir",
     catalogText:
@@ -6756,7 +6594,6 @@ const copy = {
     favoriteShelfText: "Compra desde aquí sin volver a buscar el producto.",
     favoriteShelfEmpty: "Guarda productos para comprarlos rápido después.",
     favoriteBuyNow: "Agregar",
-    favoriteView: "Ver",
     favoriteCheckout: "Ir al carrito",
     checkoutSecureTitle: "Protegemos tu información",
     checkoutEyebrow: "Checkout",
@@ -6776,7 +6613,6 @@ const copy = {
     checkoutFastDelivery: "Entrega coordinada",
     checkoutDateDelivery: "Reservar para otra fecha",
     checkoutFree: "Por definir",
-    checkoutItemsTitle: "Productos en el pedido",
     checkoutSummaryTitle: "Confirmar pedido",
     checkoutSubtotal: "Subtotal",
     checkoutDelivery: "Entrega",
@@ -6798,15 +6634,9 @@ const copy = {
     checkoutCount: "{count} productos",
     checkoutCopySuccess: "Pedido copiado.",
     priceLabel: "Precio venta",
-    askProduct: "Consultar y reservar",
-    askFromPhoto: "Consultar este producto",
     viewDetail: "Ver detalle",
-    availabilityByMessage: "Disponibilidad por mensaje",
     stockInline: "Stock por mensaje",
     stockInlineDetail: "Stock, color y entrega se confirman por mensaje",
-    chooseOptions: "Choose options",
-    reviewCount: "reseñas",
-    reviewStatus: "Reviews soon",
     viewReviews: "View reviews",
     reviewsTitle: "Customer reviews",
     reviewsEmptyTitle: "Reviews are being collected",
@@ -6816,8 +6646,6 @@ const copy = {
     viewCollection: "View collection",
     voiceLabel: "Resumen rápido",
     detailVoiceTitle: "Resumen del producto",
-    backToCatalog: "Volver al catálogo",
-    detailEyebrow: "Detalle del producto",
     detailFeatures: "Características",
     detailDescription: "Descripción",
     detailSpecs: "Detalles",
@@ -6852,8 +6680,6 @@ const copy = {
     detailGuideRefillTitle: "Recambios",
     detailGuideRefillText: "Si hay refill o mina compatible, puedes agregarlo desde esta misma página.",
     detailReviews: "reseñas",
-    detailSize: "Punta / tamaño",
-    detailColor: "Color",
     detailQuantity: "Cantidad",
     detailTax: "Precio de venta en CLP. Entrega se coordina por mensaje.",
     detailAskMain: "Consultar disponibilidad",
@@ -6874,7 +6700,6 @@ const copy = {
     brandSubtitle: "チリ向け日本文具セレクト",
     announcementText: "チリ向け日本文具の新入荷 - メッセージで在庫確認・取り置き相談。",
     navAbout: "私たち",
-    navGallery: "商品",
     navCatalog: "商品",
     navCategories: "カテゴリ",
     navBrands: "ブランド",
@@ -6927,11 +6752,6 @@ const copy = {
     aboutParagraphThree:
       "日本で見つけた上質なペン、ノート、消しゴム、文房具を、チリの日常に少しずつ届けていきます。",
     aboutBelief: "紙とペンがあるだけで、考える時間は少し豊かになる。それが、KAMI TO PENの考え方です。",
-    galleryEyebrow: "商品",
-    galleryTitle: "商品イメージ",
-    galleryText:
-      "商品の雰囲気や色の候補を見ながら、気になるモデルを選べます。色や組み合わせはメッセージで確認できます。",
-    sourceNote: "画像出典:",
     catalogEyebrow: "商品",
     catalogTitle: "選びやすい日本文具",
     catalogText:
@@ -7013,7 +6833,6 @@ const copy = {
     favoriteShelfText: "探し直さずに、ここからすぐカートに入れられます。",
     favoriteShelfEmpty: "気になる商品を保存しておくと、あとですぐ買えます。",
     favoriteBuyNow: "追加",
-    favoriteView: "見る",
     favoriteCheckout: "カートへ",
     checkoutSecureTitle: "お客様情報を保護しています",
     checkoutEyebrow: "Checkout",
@@ -7033,7 +6852,6 @@ const copy = {
     checkoutFastDelivery: "受け渡しを調整",
     checkoutDateDelivery: "別の日で予約",
     checkoutFree: "要確認",
-    checkoutItemsTitle: "注文の商品",
     checkoutSummaryTitle: "注文を確定",
     checkoutSubtotal: "商品の小計",
     checkoutDelivery: "受け渡し",
@@ -7055,15 +6873,9 @@ const copy = {
     checkoutCount: "{count}点",
     checkoutCopySuccess: "注文文をコピーしました。",
     priceLabel: "販売価格",
-    askProduct: "在庫確認・取り置き相談",
-    askFromPhoto: "この商品を問い合わせる",
     viewDetail: "詳細を見る",
-    availabilityByMessage: "在庫はメッセージで確認",
     stockInline: "在庫確認OK",
     stockInlineDetail: "在庫・色・受け渡しはメッセージで確認",
-    chooseOptions: "選択して相談",
-    reviewCount: "レビュー",
-    reviewStatus: "レビュー準備中",
     viewReviews: "レビューを見る",
     reviewsTitle: "購入者レビュー",
     reviewsEmptyTitle: "レビューを収集中です",
@@ -7073,8 +6885,6 @@ const copy = {
     viewCollection: "コレクションを見る",
     voiceLabel: "商品紹介",
     detailVoiceTitle: "商品のポイント",
-    backToCatalog: "一覧へ戻る",
-    detailEyebrow: "商品詳細",
     detailFeatures: "特徴",
     detailDescription: "説明",
     detailSpecs: "仕様",
@@ -7109,8 +6919,6 @@ const copy = {
     detailGuideRefillTitle: "替え芯・シャー芯",
     detailGuideRefillText: "対応する替え芯やシャー芯がある場合は、このページから一緒に追加できます。",
     detailReviews: "レビュー",
-    detailSize: "芯径 / サイズ",
-    detailColor: "色",
     detailQuantity: "数量",
     detailTax: "CLP販売価格です。受け渡しはメッセージで調整します。",
     detailAskMain: "在庫を問い合わせる",
@@ -7142,7 +6950,6 @@ const isCheckoutPage = document.body.dataset.page === "checkout";
 const i18nNodes = document.querySelectorAll("[data-i18n]");
 const i18nPlaceholderNodes = document.querySelectorAll("[data-i18n-placeholder]");
 const homeSections = document.querySelectorAll("main > section");
-const inventoryGrid = document.querySelector("#inventory-grid");
 const catalogSearch = document.querySelector("#catalog-search");
 const catalogSort = document.querySelector("#catalog-sort");
 const tagFilter = document.querySelector("#tag-filter");
@@ -8871,7 +8678,6 @@ function setLanguage(lang) {
 
   renderCatalogControls();
   if (filterBar) renderFilters();
-  if (inventoryGrid) renderInventoryPhotos();
   if (isProductPage && (activeProductId || parseProductHash())) {
     activeProductId = activeProductId || parseProductHash();
     renderProductDetail(getProduct(activeProductId));
@@ -9345,45 +9151,6 @@ function productShelves(visibleProducts) {
       products: visibleProducts.filter((product) => product.category === category.key),
     }))
     .filter((shelf) => shelf.products.length);
-}
-
-function renderInventoryPhotos() {
-  if (!inventoryGrid) return;
-  inventoryGrid.innerHTML = "";
-
-  inventoryPhotos.forEach((photo, index) => {
-    const card = document.createElement("article");
-    card.className = "inventory-card";
-    if (index === 0 || index === 3) card.classList.add("inventory-card-wide");
-
-    const title = currentLang === "ja" ? photo.titleJa : photo.titleEs;
-    const description = currentLang === "ja" ? photo.descriptionJa : photo.descriptionEs;
-
-    card.innerHTML = `
-      <button class="inventory-image-button" type="button" data-detail-product-id="${photo.productId}" aria-label="${t("viewDetail")} ${title}">
-        <img class="inventory-image" src="${photo.image}" alt="${title}" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='assets/product-image-pending.svg'">
-      </button>
-      <div class="inventory-caption">
-        <div class="inventory-title-row">
-          <h3>${title}</h3>
-          <span class="stock-inline-pill inventory-stock-pill">${t("stockInline")}</span>
-        </div>
-        <p>${description}</p>
-        <div class="inventory-price">
-          <span>${t("priceLabel")}</span>
-          <strong>${photo.priceClp}</strong>
-        </div>
-        <button class="button cart-cta inventory-cart-cta" type="button" data-cart-product-id="${photo.productId}" aria-label="${t("addToCart")} ${title}">
-          <span class="cart-cta-icon" aria-hidden="true"></span>
-          <span class="cart-cta-text">${t("addToCart")}</span>
-        </button>
-      </div>
-    `;
-    inventoryGrid.append(card);
-  });
-
-  bindCartButtons(inventoryGrid);
-  bindDetailTriggers(inventoryGrid);
 }
 
 function renderProducts() {
